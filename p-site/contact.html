@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact me</title>
+  </head>
+  <body>
+    <h1>Contact</h1>
+    <li>Mobile no:7986233652571</li>
+    <li>Email id:madya2@gmail.com</li>
+    <hr />
+
+    <form
+      action="mailto:mahajandiya762@gmail.com"
+      method="post"
+      enctype="text/plain"
+    >
+      <label for="name">Your Name</label>
+      <input type="text" name="Your-name=" minlength="4" />
+      <input type="submit" /><br />
+
+      <label for="Birth-year">Date of Birth</label>
+      <input
+        type="date"
+        value="01-12-2004"
+        min="1940-01-01"
+        max="2022-06-08"
+        name="Date-of-birth"
+      />
+      <input type="submit" value="Done" /><br />
+      <label for="color">Your favourite color</label>
+      <input type="color" name="color" />
+      <input type="checkbox" /><br />
+      <label> Do you want to sign up to the email list?</label>
+      <input type="email" name="Your-mailid" />
+      <input type="checkbox" /><br />
+      <label for="">Your message</label>
+      <textarea name="Your-message" id="" cols="30" rows="10"></textarea><br />
+      <input type="submit" />
+    </form>
+  </body>
+</html>
